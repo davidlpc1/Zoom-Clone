@@ -5,10 +5,12 @@
   "repository": "https://github.com/davidlpc1/Zoom-Clone.git",
   "author": "Davi Lucas <davilucasdlcreator@gmail.com>",
   "license": "MIT",
-  "scripts":{
-    "dev":"nodemon server.js"
+  "scripts": {
+    "dev": "nodemon server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
   }
 }
