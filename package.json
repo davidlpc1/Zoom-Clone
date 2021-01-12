@@ -1,0 +1,14 @@
+{
+  "name": "zoom-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/davidlpc1/Zoom-Clone.git",
+  "author": "Davi Lucas <davilucasdlcreator@gmail.com>",
+  "license": "MIT",
+  "scripts":{
+    "dev":"nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
