@@ -1,3 +1,3 @@
 # Zoom-Clone
 
-<img src="zoom-clone.png">
+<img src="zoom-clone.PNG">
