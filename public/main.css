@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height:100vh;
+    width:100%;
+}
+
+header{
+    display:flex !important;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e8e7ec;
+    padding:1rem;
+}
+
+#logo{
+    height: 25px;
+    cursor: pointer;
+    width: auto;
+}
+
+header a.action-link {
+    color:#fff;
+    background:#008bff;
+    padding:.6rem;
+    text-decoration: none;
+    transition:340ms ease-in-out;
+    border: .2px solid #fff;
+}
+
+header a.action-link:hover{
+    color:#008bff;
+    background:#fff;
+    text-decoration: none;
+    border: .2px solid #008bff;
+}
+
+main{
+    height:100%;
+    width:100%;
+    background-image:url("https://zoom.us/docs/image/new/meetings/meetings_topbg2_0e0fbea.jpg");
+    background-repeat: no-repeat;
+    background-color:#f4f3f8;
+    position:relative;
+    padding:20px;
+}
+
+main h1{
+    line-height: 55px;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    color: #333;
+    padding: 82px  12px ;
+}
